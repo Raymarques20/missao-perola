@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: var(--green-);
+    background-color: var(--cor-principal);
     color: var(--black-);
     display: flex;
     justify-content: center;
