@@ -8,8 +8,8 @@
 }
 
 body{
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    background-color: var(--green-);
+    color: var(--black-);
     display: flex;
     justify-content: center;
     align-items: center;
