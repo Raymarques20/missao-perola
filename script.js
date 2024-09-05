@@ -66,11 +66,11 @@ function mostraPergunta (){
 function mostraAlternativas(){
     for(const alternativas of perguntaAtual.alternativas){
         const botaoAlternativa = document.createElement("button");
-        botaopAlternativa.textContent = alternativa.texto;
-        botaoAlternativa.addEventListener("click", ()=>respostasSelecionadas(alternativa));  
+        botaoAlternativa.textContent = alternativa.texto;
+        botaoAlternativa.addEventListener("click", ()=>respostaSelecionada(alternativa));  
     }
 }
-function respostaSeleciomada (opcaoSelecionada){
+function respostaSelecionada (opcaoSelecionada){
     const afirmacao = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacao + " ";
     atual++
